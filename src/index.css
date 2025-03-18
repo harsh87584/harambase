@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Cutiemollydemo";
+  src: url("/public/font/Cutiemollydemo-2ORE3.ttf") format("opentype");
+  /* font-display: swap; */
+}
+@font-face {
+  font-family: "VolkswagenSerialRegular";
+  src: url("/public/font/VolkswagenSerialRegular.ttf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "VolkswagenSerialBold";
+  src: url("/public/font/VolkswagenSerialBold.ttf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "VolkswagenSerialMediumRegular";
+  src: url("/public/font/VolkswagenSerialMediumRegular.ttf") format("opentype");
+  font-display: swap;
+}
+
+.herobg {
+  background-image: url(/public/blank.png);
+}
+/* .herobg {
+  background-image: url(/public/bg.png);
+} */
+
+@media only screen and (max-width: 500px) {
+  .aboutimg {
+    width: 100% !important;
+  }
+}
+
+/* @media (min-width: 2099px) and (max-width: 2149px) {
+  .textslider {
+    top: 53% !important;
+  }
+}
+@media (min-width: 2150px) and (max-width: 2199px) {
+  .textslider {
+    top: 49% !important;
+  }
+} */
+
+/* 90 */
+@media only screen and (min-width: 2100px) {
+  .textslider {
+    top: 53% !important;
+  }
+}
+@media only screen and (min-width: 2100px) {
+  .herodiv {
+    margin-bottom: 200px !important;
+  }
+}
+/* 75 */
+/* @media only screen and (min-width: 2250px) {
+  .textslider {
+    top: 45% !important;
+  }
+} */
+/* 80 */
+@media only screen and (min-width: 2199px) {
+  .textslider {
+    top: 49% !important;
+  }
+}
+@media screen and (width: 540px) {
+  .herobg {
+    height: 500px !important;
+  }
+}
+@media screen and (width: 1097px) {
+  .textdiv {
+    margin-top: 110px !important;
+  }
+  .herobg {
+    height: 700px !important;
+  }
+}
+@media screen and (width: 1099px) {
+  .textdiv {
+    margin-top: 110px !important;
+  }
+  .herobg {
+    height: 600px !important;
+  }
+}
+@media screen and (width: 1024px) {
+  .textdiv {
+    margin-top: 110px !important;
+  }
+  .herobg {
+    height: 700px !important;
+  }
+}
+@media screen and (width: 375px) {
+  .textdiv {
+    margin-top: 210px !important;
+  }
+}
+@media screen and (width: 344px) {
+  .textdiv {
+    margin-top: 210px !important;
+  }
+}
+@media screen and (width: 768px) {
+  .herobg {
+    height: 536px !important;
+  }
+}
+@media screen and (width: 768px) {
+  .herobg {
+    height: 546px !important;
+  }
+  .heroposter {
+    width: 100% !important;
+  }
+}
+/* @media screen and (max-width: 769px) {
+  .herobg {
+    height: 550px !important;
+  }
+} */
+@media screen and (width: 768px) {
+  .donatediv {
+    height: 500px !important;
+    left: 106px !important;
+    top: 20px;
+  }
+}
+
+@media screen and (min-width: 586px) and (max-width: 770px) {
+  .donatediv {
+    height: 500px;
+    left: 106px !important;
+    top: 20px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1600px) {
+  .herobg {
+    height: 750px !important;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1110px) {
+  .herobg {
+    height: 720px !important;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1900px) {
+  .herobg {
+    height: 790px !important;
+  }
+}
+@media screen and (min-width: 2100px) and (max-width: 2500px) {
+  .herobg {
+    height: 790px !important;
+  }
+}
